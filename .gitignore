@@ -1,12 +1,41 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+###
+# Unity folders and files
+###
+[Aa]ssets/AssetStoreTools*
+[Bb]uild/
+[Ll]ibrary/
+[Ll]ocal[Cc]ache/
+[Oo]bj/
+[Tt]emp/
+[Uu]nityGenerated/
+# file on crash reports
+sysinfo.txt
+# Unity3D generated meta files
+*.pidb.meta
 
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
+###
+# VS/MD solution and project files
+###
+[Ee]xportedObj/
+*.booproj
+*.csproj
+*.sln
+*.suo
+*.svd
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+.DS_Store
+
+###
+# OS generated
+###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
