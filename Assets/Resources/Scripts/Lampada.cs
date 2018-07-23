@@ -11,7 +11,6 @@ public class Lampada : MonoBehaviour {
         O Objetivo é mostrar como pode ser criado um sistema de lanterna.
     */
 
-
     Light lampadaLanterna;
 
     public Text textBateria;
@@ -51,6 +50,9 @@ public class Lampada : MonoBehaviour {
             bateriaLanterna -= 10;
             tempoGet = tempo;
         }
+
+        if (bateriaLanterna <= 0)
+            bateriaLanterna = 0;
     }
 
     public void SetBateria()
